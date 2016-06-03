@@ -1,0 +1,29 @@
+---
+author:
+  - 'Yoshinori Matsunobu <Yoshinori.Matsunobu@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.00'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: mha4mysql-manager
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Config::Tiny: 0
+  DBD::mysql: 0
+  DBI: 0
+  Log::Dispatch: 0
+  MHA::NodeConst: 0
+  Parallel::ForkManager: 0
+  Time::HiRes: 0
+resources:
+  license: http://opensource.org/licenses/gpl-license.php
+version: 0.52
