@@ -61,3 +61,5 @@ sub sleep_until {
     my $self    = shift;
     sleep( $self->{recheckInterval} );
 }
+
+1;

@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-package MHA::MasterMonitor;
+package MHA::MonitorMaster;
 
 use MHA::CheckHealth;
 
@@ -17,4 +17,3 @@ sub main {
     $master_health->test_until_disconnects();
 }
 
-1;
